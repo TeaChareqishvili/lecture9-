@@ -1,0 +1,21 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+section{
+    background-color:#0A22F4;
+}
+
+.container{
+    max-width:1450px;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.div-flex{
+    display:flex;
+    
+}

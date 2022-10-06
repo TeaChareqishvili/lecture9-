@@ -11,21 +11,24 @@ section{
  .container{
     max-width:1450px;
     width:80%;
+   padding-top:50px;
     margin-left:auto;
     margin-right:auto;
 } 
 
 .div-flex{
     display:flex;
-  
     justify-content:space-between;
-   
+    align-items: center;
+    
    
 }
 
 h2{
     color:#FFFFFF;
+    font-family:  Helvetica;
     font-size:32px;
+    margin-bottom:20px;
   
 }
 .contacts{
@@ -34,11 +37,105 @@ h2{
 .contact-p{
     color:#ffffff;
     font-size:16px;
+    font-family: Helvetica;
+    font-weight: normal;
     text-align: left;
-  
-  
+    margin-bottom:20px; 
 }
+
+.map{
+    margin-bottom:40px;
+    width:400px;
+    height:200px;
+}
+.page-info, .info{
+    display:flex;
+    align-items: center;
+   
+}
+.page-info{
+   width:50%;
+  justify-content:space-between;
+ 
+}
+
+.page-info p{
+  color:#ffffff;
+  font-size:16px;
+  font-family: Helvetica;
+  font-weight: bold;
+  margin-left:20px;
+}
+
+img{
+    background-color:white;
+    padding:15px;
+   
+}
+
 form{
     display:flex;
     flex-direction: column;
+   
+}
+.user-info{
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color:#0A22F4;
+    border:none;
+    border-bottom: solid 1px white;
+}
+label{
+    font-size:16px;
+    font-family:Helvetica;
+    font-weight: bold;
+    color:#ffffff;
+   
+}
+.button{
+    width:100px;
+    height:40px;
+    margin-bottom:30px;
+    margin-top:20px;
+    align-self: flex-end;
+}
+
+.heart{
+    
+    background-color:#0A22F4;
+    
+    
+}
+
+.ball{
+    width:150px;
+    height:60px;
+    background-color: #0A22F4;
+}
+
+.rights-flex{
+    display: flex;
+    margin-top:20px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.final{
+    font-size:16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color:#ffffff;
+    padding-right:10px;
+
+}
+span{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.made-in{
+    display: flex;
+    align-items: center;
 }
